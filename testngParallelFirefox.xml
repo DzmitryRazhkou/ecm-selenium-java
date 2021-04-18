@@ -4,7 +4,7 @@
 	<listeners>
 		<listener class-name="com.app.reports.ExtentListener" />
 	</listeners>
-	<test name="Functional Test" parallel="classes" thread-count="3">
+	<test name="Functional Test" parallel="classes" thread-count="2">
 		<parameter name="browser" value="firefox"/>
 		<classes>
 			<class name="com.app.tests.LoginTest"/>
