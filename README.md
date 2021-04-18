@@ -75,7 +75,7 @@ The application under test (AUT) is [Alfresco Community Edition](https://bitnami
     - `final` variables in all caps
   - Proper usage of Java modifiers (`public`, `private` and `protected`)
   - Thread safe code to handle parallel execution
-  - No hardcoded sleep
+  - No `Thread.sleep`
   - Read configuration and test data from `.properties` and `.csv` files
 
 ## Challenges
