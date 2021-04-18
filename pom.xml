@@ -93,7 +93,7 @@
 						<systemPropertyVariables>
 							<author>mk-sdet</author>
 							<page.load.timeout>120</page.load.timeout>
-							<url>http://{COMPLETE HERE}/</url>
+							<url>{COMPLETE HERE}/share/page/</url>
 						</systemPropertyVariables>
 					</configuration>
 				</plugin>
